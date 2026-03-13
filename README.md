@@ -1,20 +1,19 @@
-# Personal Finance Tracker
+# Expense Tracker 💰
 
-A simple CLI application to track your daily expenses. Data is saved locally in `expenses.json`.
+> **Simple, command-line financial management.**
 
-## Usage
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### Add an Expense
+A Python-based CLI tool for tracking daily expenses, categorized spending analysis, and basic budget management.
+
+---
+
+## 🚀 Usage
+
 ```bash
-python tracker.py add <amount> <category> <description>
-```
-Example:
-```bash
-python tracker.py add 15.50 Food "Lunch at cafe"
+python expense_tracker.py add 50 "Groceries"
+python expense_tracker.py summary
 ```
 
-### List Expenses
-```bash
-python tracker.py list
-```
-This will display a table of all recorded expenses.
+---
+**Maintained by [X-Abhishek-X](https://github.com/X-Abhishek-X)**
